@@ -1,0 +1,45 @@
+{
+ "creation": "2018-09-28 14:02:44.363837",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "export_document",
+  "number",
+  "copy"
+ ],
+ "fields": [
+  {
+   "fieldname": "export_document",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Export Document",
+   "options": "Export Document",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Original"
+  },
+  {
+   "fieldname": "copy",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Copy"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-09-10 15:38:13.667799",
+ "modified_by": "Administrator",
+ "module": "Exim",
+ "name": "Export Document Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

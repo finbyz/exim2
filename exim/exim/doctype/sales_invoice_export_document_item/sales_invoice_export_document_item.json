@@ -1,0 +1,66 @@
+{
+ "creation": "2018-10-22 12:38:08.747211",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_term",
+  "export_document",
+  "number",
+  "copy",
+  "checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_term",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Contract Term",
+   "options": "Contract Term",
+   "read_only": 1
+  },
+  {
+   "fieldname": "export_document",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Export Document",
+   "options": "Export Document",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "default": "1",
+   "fieldname": "number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Original",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "checked",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Checked"
+  },
+  {
+   "columns": 1,
+   "fieldname": "copy",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Copy",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-09-10 15:39:31.196275",
+ "modified_by": "Administrator",
+ "module": "Exim",
+ "name": "Sales Invoice Export Document Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

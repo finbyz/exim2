@@ -1,0 +1,49 @@
+{
+ "creation": "2018-10-19 17:06:54.931966",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sales_order",
+  "grand_total",
+  "net_total"
+ ],
+ "fields": [
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "sales_order.grand_total",
+   "fieldname": "grand_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Grand Total",
+   "options": "currency",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "sales_order.net_total",
+   "fieldname": "net_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Net Total",
+   "options": "currency",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-09-10 15:36:58.759879",
+ "modified_by": "Administrator",
+ "module": "Exim",
+ "name": "Contract Term Order",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,82 @@
+{
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:port_name",
+ "creation": "2019-04-10 17:28:37.616419",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "port_name",
+  "port_code",
+  "country"
+ ],
+ "fields": [
+  {
+   "fieldname": "port_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Port Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "port_code",
+   "fieldtype": "Data",
+   "label": "Port Code"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country",
+   "reqd": 1
+  }
+ ],
+ "modified": "2019-09-09 12:58:06.901069",
+ "modified_by": "Administrator",
+ "module": "Exim",
+ "name": "Port Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}
